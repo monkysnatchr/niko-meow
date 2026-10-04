@@ -11,7 +11,8 @@ window = tk.Tk()
 window.title("Niko")
 window.geometry("200x200")
 window.resizable(False, False)
-window.iconbitmap('pancakes.ico')
+icon_image = tk.PhotoImage(file='pancakes.png')
+window.iconphoto(True, icon_image)
 
 
 normal_image = tk.PhotoImage(
